@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background-color:#63b8ee;
+	text-indent:0;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-size:18px;
+	font-weight:bold;
+	font-style:normal;
+    padding: 0 20px;
+	line-height:65px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7cacde;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background-color:#468ccf;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.error {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: #900;
+    background: rgba(255, 255, 255, .88);
+}
+
+.code {
+    font-size: 24px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, .3);
+}
+
+section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+article {
+    position: absolute;
+}
+
+.intro {
+    background: url("../i/20130905-212928-1.jpg") no-repeat center;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+.intro article {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-shadow: 0 0 1px #333;
+    color: #eee;
+}
+
+.olesya {
+    background: url("../i/20131105-220854-1.jpg") no-repeat center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.olesya article {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: #333;
+    text-shadow: 0 0 3px #eee;
+}
+
+.mikhail {
+    background: url("../i/20131022-144509-1.jpg") no-repeat center;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.mikhail article {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: #FFF;
+    text-shadow: 0 0 3px #333;
+}
+
+.fin {
+    background: url("../i/347029_nebo_vozdushnye-shary_shariki_raznocvetnye_1950x1300_www.GdeFon.ru_%20(1).jpg") no-repeat center;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+.fin article {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    color: #000;
+    text-shadow: 0 0 10px #FFF;
+    background: rgba(255, 255, 255, .45);
+}

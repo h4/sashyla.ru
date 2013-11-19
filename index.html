@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Сашулин день рождения</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script
+            src="http://api-maps.yandex.ru/1.1/index.xml?key=ADbnxE4BAAAAsqTrXwIAsPlOq4Zq4VB3WHYxYd7KQ7CV2o0AAAAAAAAAAABpCeoL0ZiYBkhWqMMWXlEqrlP-4A=="
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var map = new YMaps.Map(document.getElementById("YMapsID"));
+            var ml = new YMaps.YMapsML("http://maps.yandex.ru/export/usermaps/7WBnY_weVQ3CaPUqn_S517iVH7kxewZg/");
+            map.setCenter(new YMaps.GeoPoint(37.64, 55.76), 10);
+            map.addOverlay(ml);
+        }
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        body {
+            font:14px/1.5 sans-serif;
+            background-image:url(bright_squares.png);
+            color:#335;
+            }
+        h1 {
+            font-family:Lobster, fantasy;
+            font-size:48px;
+            line-height:1;
+            text-align:center;
+            margin-bottom:1em;
+            }
+        h2 {
+            font-size:36px;
+            font-family:serif;
+            font-weight:normal;
+            }
+        #page {
+            width:800px;
+            margin:20px auto;
+            padding:20px;
+            background:#FFF;
+            border-radius:10px;
+            box-shadow:0 0 10px #999;
+            }
+        #YMapsID {
+            height:400px;
+            }
+    </style>
+</head>
+<body>
+<div id="page">
+    <h1>Приглашаем на<br>день рождения Сашули</h1>
+
+    <h2>Когда?</h2>
+
+    <p>20 ноября (воскресение), в 15<sup>30</sup>.</p>
+
+    <h2>Где?</h2>
+
+    <p>Картниг-центр «World Kart»</p>
+
+    <p>Адрес: Санкт-Петербург, ул. Софийская, д.8, 2 этаж</p>
+
+    <p>Общественный транспорт</p>
+
+    <ul>
+        <li>«Лиговский проспект» — маршрутное такси № 170 до ул. Софийская, д.8</li>
+        <li>«Волковская» — маршрутное такси № 170 и № 344 до ул. Софийская, д.8</li>
+        <li>«Ломоносовская» - маршрутное такси № 170 до ул. Софийская, д.8</li>
+        <li>«Пролетарская» - маршрутное такси № 170 до ул. Софийская, д.8</li>
+        <li>«Рыбацкое» - маршрутное такси № 170 до ул. Софийская, д.8</li>
+        <li>«Московская» - маршрутное такси № 335 и № 344 до ул. Софийская, д.8</li>
+        <li>«Ленинский проспект» - маршрутное такси № 344 до ул. Софийская, д.8</li>
+    </ul>
+
+    <div id="YMapsID"></div>
+</div>
+</body>
+</html>

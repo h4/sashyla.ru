@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Шаг 1{% endblock %}
+
+{% block content %}
+    <section class="mikhail">
+        <article>
+            <h1>Сыграем в игру?</h1>
+
+            <p>Выиграешь, скажу код</p>
+
+            <form action="/fin" method="post">
+                <p><input class="code" type="phone" name="code" /></p>
+                <p><input class="button" type="submit" value="Выиграла!" ></p>
+            </form>
+        </article>
+    </section>
+{% endblock %}
